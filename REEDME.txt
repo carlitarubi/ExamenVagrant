@@ -1,0 +1,14 @@
+Abrimos cygwin64 y nos ponemos en la ruta deseada, en este caso:
+	home/2daw/pruebaExamen.
+A continuación,
+	vagrant init Ubuntu/trusty64
+	vagrant up
+
+Al finalizar la carga haremos un:
+	vagrant ssh (para conectar)
+Una vez dentro,
+	sudo apt-get update
+	sudo apt-get -y install apache2 mysql-server php5-mysql
+(Cuando pida contraseña clickar Enter únicamente para que no tenga contraseña)
+
+Crear carpeta www en rubioex con un html 

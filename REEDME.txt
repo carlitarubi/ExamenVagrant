@@ -12,3 +12,12 @@ Una vez dentro,
 (Cuando pida contraseña clickar Enter únicamente para que no tenga contraseña)
 
 Crear carpeta www en rubioex con un html 
+
+_________________________
+
+A continuación instalamos php y mysql
+
+	apt-get install mysql-server php5-mysql
+	apt-get install -y libapache2-mod-php5 php5 php5-mcrypt
+
+Como se indica en el provision.sh
